@@ -11,9 +11,9 @@ const Form = () => {
         <h2 className='text-4xl text-bold text-white'>stay connected with us</h2>
       </div>
       <div className='text-center mt-10'>
-      <input className='' type="email" name='email' placeholder="Email Address" class="input input-bordered w-full lg:max-w-lg" />
+      <input className='' type="email" name='email' placeholder="Email Address" className="input input-bordered w-full lg:max-w-lg" />
       <br />
-      <input  type="text" placeholder="Subject" class="input input-bordered w-full lg:max-w-lg mt-5" />
+      <input  type="text" placeholder="Subject" className="input input-bordered w-full lg:max-w-lg mt-5" />
       <br />
       <textarea className='input input-bordered w-full lg:max-w-lg mt-5' placeholder="Your message"></textarea>
       <br />
